@@ -1,14 +1,16 @@
 import React from 'react';
 import { BrowserRouter , Switch , Route } from 'react-router-dom';
-import Main from './pages/main';
+import Main from './pages/index';
 import Category from './pages/category';
+import Header from './components/Header';
 
 
 const Routes = () => (
     <BrowserRouter>
+            <Route path='/' component={Header} />
         <Switch>
             <Route exact path='/' component={Main} />
-            <Route path='/category/:url' component={Category} />
+            <Route path='/:url' component={Category} />
         </Switch>
     </BrowserRouter>
 )

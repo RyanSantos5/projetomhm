@@ -1,0 +1,11 @@
+@import './assets/scss/variaveis.scss';
+
+body {
+    background-color: $preto;
+}
+
+.content {
+    width: 80%;
+    height: 100%;
+    display: flex;
+}

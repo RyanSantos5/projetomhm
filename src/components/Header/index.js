@@ -1,8 +1,16 @@
 import React from 'react';
+import Logo from '../Logo';
+import Menu from '../Menu';
+import './style.scss';
 
 const Header = () => {
     return  (
-        <h1>Header</h1>
+        <div className="header">
+            <div className="content">
+            <Logo className="logo" />
+            <Menu className="menu" />
+            </div>
+        </div>
     )
 }
 

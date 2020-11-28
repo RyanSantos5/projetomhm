@@ -1,8 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
+import './index.scss';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import $ from 'jquery';
 
 ReactDOM.render(
   <React.StrictMode>
@@ -15,3 +17,6 @@ ReactDOM.render(
 // to log results (for example: reportWebVitals(console.log))
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();
+
+
+$(window).scroll(function() { if($(this).scrollTop() + $(this).height() == $(document).height()) { alert("chegou ao final"); } });

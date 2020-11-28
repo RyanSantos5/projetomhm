@@ -1,9 +1,15 @@
 import React, { Component } from 'react';
 
 export default class Category extends Component {
+
     render() {
+        console.log(this.props.match.params);
+        const url = this.props.match.params;
         return (
-            <h1>categoria</h1>
+            <div>
+                <h1>{ url.url }</h1>
+                
+            </div>
         )
     }
 }
