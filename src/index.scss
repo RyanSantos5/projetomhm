@@ -2,10 +2,32 @@
 
 body {
     background-color: $preto;
+    padding-top: 80px;
 }
 
 .content {
     width: 80%;
     height: 100%;
     display: flex;
+}
+
+.titulo-padrao {
+        font-size: 30px;
+        font-weight: $f-semibold;
+        color: $branco;
+        text-transform: uppercase;
+        width: 100%;
+        padding: 30px 0;
+        text-align: left;
+        position: relative;
+
+        &::before {
+            content: '';
+            background-image: url(./assets/images/icon/tag-title.png);
+            background-size: 100%;
+            position: absolute;
+            width: 30px;
+            height: 30px;
+            left: -35px;
+    }
 }

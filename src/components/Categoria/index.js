@@ -4,6 +4,7 @@ import OwlCarousel from 'react-owl-carousel2';
 import 'react-owl-carousel2/lib/styles.css';  
 
 import Banner2 from './../../assets/images/teste/curso.png';
+import { Link } from 'react-router-dom';
 
 const Destaques = (props) => {
     console.log("CAT::" + props.data);
@@ -13,6 +14,7 @@ const Destaques = (props) => {
         rewind: false,
         autoplay: false,
         margin: 10,
+        navText : ["",""]
     };
      
     // const events = {
@@ -23,14 +25,14 @@ const Destaques = (props) => {
     return  (
         <div className="categoria">
             <div className="content">
-            <h1>Cortes de Cabelo</h1>
-            <OwlCarousel  options={options} >
+                <h1 className="titulo-padrao">Cortes de Cabelo</h1>
+                <OwlCarousel  options={options} >
                 { props.data.map(post => (
-                    <div className="categoria-item" style={{backgroundImage: `url('${Banner2}')` }}>
+                    <Link className="categoria-item" style={{backgroundImage: `url('${Banner2}')` }}>
                         <h1>{ post.title }</h1>
                         <p> { post.description } </p>
                         <span> { post.date } </span>
-                    </div>
+                    </Link>
                 )) }
             </OwlCarousel>
             </div>

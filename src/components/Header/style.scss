@@ -1,9 +1,13 @@
 @import './../../assets/scss/variaveis.scss';
 
 .header {
+    position: fixed;
+    top: 0px;
     background-color: $preto;
     width: 100%;
-    height: 100px;
+    height: 80px;
+    transition: 400ms all ease-in-out;
+    z-index: 10;
 
     display: flex;
     align-items: center;
@@ -19,6 +23,7 @@
     .logo {
         height: 100%;
         flex: 1;
+        min-width: 110px;
 
         display: flex;
         align-items: center;
@@ -26,7 +31,8 @@
 
         img {
             width: auto;
-            height: 70px;
+            height: 60px;
+            transition: 400ms all ease-in-out;
         }
     }
 
@@ -43,11 +49,9 @@
             display: flex;
             align-items: center;
             flex-direction: row;
-            gap: 20px;
         }
         
         li {
-            padding: 0 10px ;
             height: 100%;
             text-align: center;
             justify-content: center;
@@ -63,7 +67,7 @@
             height: 100%;
             text-align: center;
             width: auto;
-            padding: 0 10px ;
+            padding: 0 30px ;
             position: relative;
 
             display: flex;
@@ -76,18 +80,36 @@
                 position: absolute;
                 width: 15px;
                 height: 2px;
-                bottom: 37px;
-                transition: 400ms all;
-                left: 10px;
+                bottom: 28px;
+                transition: 400ms all ease-in-out;
+                left: 30px;
             }
 
             &:hover {
+                background-color: $cinza;
                 &::before {
-                    width: calc(100% - 20px);
+                    width: calc(100% - 60px);
                 }
             }
         }
         
     }
 
+}
+
+.fixed {
+    height: 50px;
+
+    .logo {
+        img {
+            width: auto;
+            height: 40px;
+        }
+    }
+
+    .link {
+        &::before {
+            bottom: 14px !important;
+        }
+    }
 }
