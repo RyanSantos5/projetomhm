@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/projetomhm/static/css/main.dc26a24e.chunk.css",
-    "main.js": "/projetomhm/static/js/main.491ea2bd.chunk.js",
-    "main.js.map": "/projetomhm/static/js/main.491ea2bd.chunk.js.map",
-    "runtime-main.js": "/projetomhm/static/js/runtime-main.823ea852.js",
-    "runtime-main.js.map": "/projetomhm/static/js/runtime-main.823ea852.js.map",
+    "main.css": "/projetomhm/static/css/main.44ab5043.chunk.css",
+    "main.js": "/projetomhm/static/js/main.b3f4e572.chunk.js",
+    "main.js.map": "/projetomhm/static/js/main.b3f4e572.chunk.js.map",
+    "runtime-main.js": "/projetomhm/static/js/runtime-main.b0dd105d.js",
+    "runtime-main.js.map": "/projetomhm/static/js/runtime-main.b0dd105d.js.map",
     "static/css/2.7ab896fa.chunk.css": "/projetomhm/static/css/2.7ab896fa.chunk.css",
-    "static/js/2.be0d1d22.chunk.js": "/projetomhm/static/js/2.be0d1d22.chunk.js",
-    "static/js/2.be0d1d22.chunk.js.map": "/projetomhm/static/js/2.be0d1d22.chunk.js.map",
-    "static/js/3.50bb478f.chunk.js": "/projetomhm/static/js/3.50bb478f.chunk.js",
-    "static/js/3.50bb478f.chunk.js.map": "/projetomhm/static/js/3.50bb478f.chunk.js.map",
+    "static/js/2.f596a814.chunk.js": "/projetomhm/static/js/2.f596a814.chunk.js",
+    "static/js/2.f596a814.chunk.js.map": "/projetomhm/static/js/2.f596a814.chunk.js.map",
+    "static/js/3.39f78602.chunk.js": "/projetomhm/static/js/3.39f78602.chunk.js",
+    "static/js/3.39f78602.chunk.js.map": "/projetomhm/static/js/3.39f78602.chunk.js.map",
     "index.html": "/projetomhm/index.html",
     "static/css/2.7ab896fa.chunk.css.map": "/projetomhm/static/css/2.7ab896fa.chunk.css.map",
-    "static/css/main.dc26a24e.chunk.css.map": "/projetomhm/static/css/main.dc26a24e.chunk.css.map",
-    "static/js/2.be0d1d22.chunk.js.LICENSE.txt": "/projetomhm/static/js/2.be0d1d22.chunk.js.LICENSE.txt",
+    "static/css/main.44ab5043.chunk.css.map": "/projetomhm/static/css/main.44ab5043.chunk.css.map",
+    "static/js/2.f596a814.chunk.js.LICENSE.txt": "/projetomhm/static/js/2.f596a814.chunk.js.LICENSE.txt",
     "static/media/black.ca76bc21.jpg": "/projetomhm/static/media/black.ca76bc21.jpg",
     "static/media/colecao.ac0cd9b1.jpg": "/projetomhm/static/media/colecao.ac0cd9b1.jpg",
     "static/media/curso.45a901d7.png": "/projetomhm/static/media/curso.45a901d7.png",
@@ -21,10 +21,10 @@
     "static/media/quem-somos.af0976e7.jpg": "/projetomhm/static/media/quem-somos.af0976e7.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.823ea852.js",
+    "static/js/runtime-main.b0dd105d.js",
     "static/css/2.7ab896fa.chunk.css",
-    "static/js/2.be0d1d22.chunk.js",
-    "static/css/main.dc26a24e.chunk.css",
-    "static/js/main.491ea2bd.chunk.js"
+    "static/js/2.f596a814.chunk.js",
+    "static/css/main.44ab5043.chunk.css",
+    "static/js/main.b3f4e572.chunk.js"
   ]
 }
