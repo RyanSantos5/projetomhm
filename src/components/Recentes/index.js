@@ -30,14 +30,18 @@ const Recentes = (props) => {
                     <h1 className="titulo-padrao">Recentes</h1>
                     <div>
                         <OwlCarousel  options={options} >
-                            { props.data.map(post => (
-                                <Link className="categoria-item"  data-hash={post.id}>
-                                    <div className="banner" style={{backgroundImage: `url('${Banner2}')` }} />
-                                    <h1>{ post.title }</h1>
-                                    <p> { post.description } </p>
-                                    <span> { post.date } </span>
-                                </Link>
-                            )) }
+                            { props.data.map((post, index) => {
+                                if(index < 5) {
+                                    return (
+                                        <Link className="categoria-item"  data-hash={post.id}>
+                                            <div className="banner" style={{backgroundImage: `url('${Banner2}')` }} />
+                                            <h1>{ post.title }</h1>
+                                            <p> { post.description } </p>
+                                            <span> { post.date } </span>
+                                        </Link>
+                                    )   
+                                }
+                            }) }
                         </OwlCarousel>
                         <div className="recentes-menu">
                                 { props.data.map((post, index) => {

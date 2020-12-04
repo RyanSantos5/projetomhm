@@ -4,6 +4,7 @@ import Destaques from './../../components/Destaques';
 import Categoria from './../../components/Categoria';
 import './style.scss';
 import Recentes from '../../components/Recentes';
+import TodasCategorias from '../../components/TodasCategorias';
 
 
 
@@ -75,6 +76,7 @@ export default class Index extends Component {
                 <Categoria data={destaques} />
                 <Recentes data={destaques} />
                 <Categoria data={destaques} />
+                <TodasCategorias data={destaques} />
             </div>
 
         )
